@@ -1,0 +1,629 @@
+.cf:before, .cf:after, .negative_block:before, .negative_block:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after, .negative_block:after {
+  clear: both;
+}
+
+.content_middle {
+  font-size: 0px; }
+  .content_middle:after {
+    display: inline-block;
+    vertical-align: middle;
+    content: ' ';
+    height: 100%;
+    width: 0; }
+  .content_middle > * {
+    display: inline-block;
+    vertical-align: middle; }
+
+.form_calc .total_price.weight {
+  font-family: "GothamProRegular";
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.def_form .price_calc_field.small_weight{
+  margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.def_field .def_input.checkbox input{
+   -webkit-appearance: checkbox;
+}
+
+.calculator_container{
+  margin-bottom: 0px;
+}
+
+.calc_table_items{
+  margin-bottom: 100px;
+}
+
+.form_calc {
+position: relative;
+}
+
+.form_calc .def_form {
+  max-width: 770px;
+}
+
+.form_calc .separation_fields .separation_icon {
+  position: absolute;
+  left: 48%;
+  top: 14px;
+  bottom: auto;
+  right: auto;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/separation_sign.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+  z-index: 2;
+}
+
+.form_calc .total_price {
+  margin-top: 10px;
+  display: inline-block;
+  font-family: "GothamProBold";
+  font-size: 21px;
+  line-height: 18px;
+}
+
+.form_calc .btn {
+  float: right;
+  padding: 0px 20px;
+}
+
+.select_param_form {
+  position: absolute;
+  left: auto;
+  top: 0px;
+  bottom: auto;
+  right: 0px;
+  width: 230px;
+  height: 300px;
+  background-color: #0299e7;
+}
+
+.mirror_type {
+  position: absolute;
+  left: auto;
+  top: auto;
+  bottom: 20px;
+  right: 40px;
+  width: 125px;
+  height: 190px;
+  background-color: #e77d9f;
+}
+
+.order_table .order_col {
+  width: 50%;
+  float: left;
+}
+
+.form_fields .group_fields .def_input + .def_input {
+position: relative; }
+.form_fields .group_fields .def_input + .def_input:before {
+  position: absolute;
+  left: -11%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  content: '';
+  width: 11px;
+  height: 11px;
+  margin-top: -5px;
+  background: url("../images/separation_sign.png") no-repeat center;
+  z-index: 1; }
+
+.calculator_container {
+margin-bottom: 100px; }
+
+.form_calc {
+  position: relative;
+  margin: 40px 0px;
+}
+
+.calc_options {
+  position: absolute;
+  left: auto;
+  top: 0px;
+  bottom: auto;
+  right: 0px;
+  width: 240px;
+  height: 300px;
+}
+
+.calc_option {
+  position: absolute;
+  left: auto;
+  top: 0px;
+  bottom: auto;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.option_info {
+z-index: 6; }
+
+.option_stuff_objectfx {
+z-index: 2;
+top: -2px; }
+
+.option_stuff {
+z-index: 4; }
+
+.option_shape_colors {
+z-index: 3; }
+
+.option_shape_border {
+z-index: 5; }
+
+.option_shape {
+z-index: 1; }
+
+.block_padding {
+  padding: 0px 60px;
+}
+
+.calc_row {
+padding: 0px 20px 0px 40px; }
+.calc_row .calc_col {
+  float: left; }
+  .calc_row .calc_col.first {
+    width: 425px; }
+  .calc_row .calc_col:nth-child(2) {
+    width: 60px; }
+  .calc_row .calc_col:nth-child(3) {
+    width: 105px; }
+  .calc_row .calc_col:nth-child(4) {
+    width: 105px; }
+  .calc_row .calc_col:nth-child(5) {
+    width: 85px; }
+  .calc_row .calc_col + .calc_col {
+    margin-left: 40px; }
+
+.calc_table_header {
+padding-bottom: 5px;
+border-bottom: 3px solid #efefef; }
+.calc_table_header .calc_col {
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "GothamProMedium";
+  text-transform: uppercase;
+  color: #9b9eab; }
+
+.calc_table_item {
+position: relative;
+height: 80px;
+border-bottom: 1px solid #efefef; }
+.calc_table_item .calc_col {
+  height: 100%; }
+  .calc_table_item .calc_col span {
+    font-size: 21px;
+    line-height: 18px; }
+.calc_table_item .calc_item_name span,
+.calc_table_item .calc_item_price span {
+  font-family: "GothamProBold"; }
+
+.delete_calc_item {
+  position: absolute;
+  left: auto;
+  top: 0px;
+  bottom: 0px;
+  right: 20px;
+  margin: auto;
+  width: 11px;
+  height: 11px;
+  background-color: #37b8e6;
+  cursor: pointer;
+  background: url("../images/del.png") no-repeat center;
+}
+
+.calc_total_price_container {
+height: 80px;
+padding: 20px 30px 0px; }
+.calc_total_price_container .info {
+  position: relative;
+  float: left;
+  width: 70%;
+  padding-left: 30px;
+  font-size: 13px;
+  line-height: 17px;
+  color: #9b9eab;
+  margin-top: 15px; }
+  .calc_total_price_container .info:before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: auto;
+    right: auto;
+    content: ' ';
+    width: 17px;
+    height: 17px;
+    background: url("../images/info_icon.png") no-repeat center; }
+.calc_total_price_container .calc_total_price {
+  float: right;
+  text-align: right; }
+  .calc_total_price_container .calc_total_price .title {
+    font-family: "GothamProMedium";
+    font-size: 13px;
+    color: #9b9eab;
+    line-height: 17px;
+    display: block;
+    margin-bottom: 5px; }
+  .calc_total_price_container .calc_total_price .total_price {
+    font-family: "GothamProMedium";
+    font-size: 24px;
+    line-height: 18px;
+    color: #0299e7; }
+    .calc_total_price_container .calc_total_price .total_price span {
+    font-size: 15px; }
+
+.calc_button_container {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.calc_button_container .btn {
+  padding: 0px 30px;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* скрываем radiobutton*/
+input[type="radio"]{display: none;}
+
+/* кастомизируем label */
+label.radio_label{
+  width: 16px;
+  height: 16px;
+  padding-left: 26px;
+  background-image: url("../images/input_style/radio_bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain
+}
+
+/* Для выбранного объекта */
+input[type="radio"]:checked+label.radio_label{
+  background-image: url("../images/input_style/radio_on.svg");
+}
+
+.radio_block {
+  width: 65%;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+input[type="number"], .def_field .def_input input[type="number"] {
+  padding-right: 3px;
+}
+
+/* скрываем radiobutton*/
+input[type="checkbox"]{display: none;}
+
+/* кастомизируем label */
+.label_field label.checkbox_label {
+  height: 30px;
+  display: inline-block;
+  overflow: visible;
+  line-height: 30px;
+  padding-right: 128px;
+  background-image: url("../images/input_style/checkbox_bg.svg");
+  background-repeat: no-repeat;
+  background-size: 26px;
+  background-position: right;
+  padding-left: 0;
+  font-weight: 700;
+
+}
+
+label.checkbox_label.lefted {
+  /* width: 16px; */
+  /* height: 16px; */
+  padding-left: 26px;
+  background-image: url("../images/input_style/checkbox_bg.svg");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  padding-right: 0;
+  background-position: 0 50%;
+  display: inline-block;
+}
+
+/* Для выбранного объекта */
+input[type="checkbox"]:checked+label.checkbox_label{
+  background-image: url("../images/input_style/checkbox_on.svg");
+}
+label.withtooltip{
+  cursor: pointer;
+}
+label.withtooltip:after{
+
+  background: #0299e7;
+  padding-left: 5px;
+  padding-right: 5px;
+  content:'?';
+  color: white;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  left: 10px;
+  position: relative;
+  line-height: 20px;
+}
+.tooltip{
+  background-color: #2b313a;
+  color: #ebebeb;
+  width: 350px;
+  padding: 7px 12px;
+  border: none;
+  font-size: 12px;
+  font-weight: 300 !important;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  margin-left: 0px;
+  line-height: 15px;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: absolute;
+  z-index: 3000;
+}
+.withtooltip:hover + .tooltip{
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.2s linear opacity;
+}
+.hiddable {
+  display: none;
+}
+
+.alarm_block {
+  display: none;
+  padding: 10px;
+  font-size: 12px;
+  color: #0299e7;
+}
+
+.def_form {
+  position: relative;
+}
+
+.def_form .def_field .def_input {
+  width: 65%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.def_form .def_field {
+  margin-bottom: 18px;
+}
+
+.def_field .def_input input,
+.def_field .def_input textarea,
+.def_field .def_input select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 3px 20px;
+  line-height: 36px;
+  font-family: "GothamProRegular";
+  border: 2px solid #efefef;
+  color: #393a3e;
+  font-size: 15px;
+  letter-spacing: -0.010em;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  position: relative;
+  width: 100%;
+}
+
+.def_input select {
+  height: 46px;
+}
+
+.def_field .def_input input[type=radio] {
+  width: auto;
+  -webkit-appearance: radio;
+  line-height: initial;
+  margin-right: 20px;
+}
+
+.def_field .def_input select {
+  background-image: url("../images/arrow_select.png");
+  background-repeat: no-repeat;
+  background-position: 96% center;
+}
+
+.def_field .def_input input[type='submit'] {
+  width: auto;
+}
+
+.def_field .def_input textarea {
+  height: 130px;
+}
+
+.def_field .def_input textarea {
+  resize: none;
+  display: block;
+}
+
+.def_field .def_input input:focus,
+.def_field .def_input textarea:focus,
+.def_field .def_input select:focus {
+  outline: none;
+  border-color: #0299e7;
+}
+
+.def_field .label_field {
+  width: 28.88276%;
+  display: inline-block;
+  margin-right: 5.2%;
+  vertical-align: middle;
+  font: 16px/36px "GothamProMedium"
+}
+
+.def_form .group_fields {
+  position: relative;
+  width: 65%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.def_form .group_fields .def_input {
+  float: left;
+  display: block;
+  width: 46%;
+}
+
+.def_form .group_fields .def_input + .def_input {
+  margin-left: 8%;
+}
+
+.wrong {
+  border-color: #515359 !important;
+  background-color: #515359;
+  color: #ffffff !important;
+  position: relative;
+}
+
+.thanks {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  display: none;
+  text-align: center;
+  margin: auto;
+  height: 120px; 
+}
+
+.thanks .title {
+  font-family: "GothamProRegular";
+  color: #393a3e;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 10px; 
+}
+
+.def_form .count_field .def_input {
+width: 65px;
+}
+
+.def_form .price_calc_field {
+margin-top: 40px;
+}
+
+@media (max-width: 1279px) {
+  .calc_options{
+    display: none;
+  }
+  .form_calc .def_form{
+    max-width: 100%;
+  }
+  .calc_row .calc_col.first{
+    width: 40%;
+  }
+  .calc_row .calc_col:nth-child(2) {
+    width: 10%;
+  }
+  .calc_row .calc_col:nth-child(3) {
+    width: 10%;
+  }
+  .calc_row .calc_col:nth-child(4) {
+    width: 10%;
+  }
+  .calc_row .calc_col:nth-child(5) {
+    width: 10%;
+  }
+  .calc_row .calc_col + .calc_col {
+    margin-left: 4%;
+  }
+  .calc_table_item .calc_col span{
+    font-size: 12px;
+  }
+  .calc_total_price_container .calc_total_price {
+    float: none;
+  }
+  .calc_table_item {
+    height: 60px;
+  }
+  .def_form .def_field .def_input{
+    width:100%;
+  }
+  .def_field .label_field{
+    font: 13px/16px "GothamProMedium";
+  }
+  .calc_button_container{
+    /*margin-top: 120px;*/
+  }
+
+}
+
+@media screen and (max-width: 1144px) {
+  .def_form .group_fields .def_input + .def_input {
+    margin-left: 0;
+  }
+  .form_fields .group_fields .def_input + .def_input:before {
+    display: block;
+    position: relative;
+    margin: 20px;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .calculator_container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .calc_row{
+    padding: 0px 10px 0px 10px;
+  }
+  .calc_col{
+    display: none;
+
+  }
+  .calc_col.first{
+    display: inline;
+  }
+  .calc_total_price_container{
+    padding: 20px 10px 0px;
+  }
+  .calc_total_price_container .info{
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .radio_block .def_input{
+    width: 100%!important;
+    padding: 15px;
+  }
+  .btn_container.content_middle{
+    text-align: center;
+  }
+  .btn_container.content_middle a:first-child{
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .tooltip{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .block_padding {
+    padding: 0px 20px;
+  }
+}

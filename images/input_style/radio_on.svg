@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #efefef;
+      }
+
+      .cls-16, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8 {
+        font-size: 13px;
+      }
+
+      .cls-14, .cls-20, .cls-4, .cls-5, .cls-6 {
+        fill: #0299e7;
+      }
+
+      .cls-23, .cls-4, .cls-5, .cls-7 {
+        font-family: "GothamPro-Bold";
+        font-weight: bold;
+      }
+
+      .cls-14, .cls-4, .cls-5, .cls-7 {
+        text-transform: uppercase;
+      }
+
+      .cls-5 {
+        text-anchor: end;
+      }
+
+      .cls-12, .cls-21, .cls-8 {
+        fill: #2a2b2f;
+      }
+
+      .cls-18, .cls-8 {
+        font-family: "GothamPro-Medium";
+      }
+
+      .cls-10, .cls-12, .cls-9 {
+        font-size: 15px;
+      }
+
+      .cls-10, .cls-15, .cls-16, .cls-18 {
+        fill: #9b9eab;
+      }
+
+      .cls-10, .cls-12, .cls-16 {
+        font-family: "GothamPro";
+      }
+
+      .cls-11 {
+        stroke: #efefef;
+        stroke-width: 2px;
+        fill: none;
+      }
+
+      .cls-13, .cls-14 {
+        font-size: 24px;
+      }
+
+      .cls-14, .cls-20 {
+        font-family: "Entypo";
+      }
+
+      .cls-15, .cls-21 {
+        fill-rule: evenodd;
+      }
+
+      .cls-17, .cls-18 {
+        font-size: 12px;
+      }
+
+      .cls-19, .cls-20 {
+        font-size: 26px;
+      }
+
+      .cls-22, .cls-23 {
+        font-size: 35.908px;
+      }
+
+      .cls-23 {
+        fill: #393a3e;
+      }
+    </style>
+  </defs>
+  <g id="artboard-1">
+    <g>
+      <rect x="-533" y="-202" width="1160" height="735" class="cls-1"/>
+      <g>
+        <rect x="-473" y="-56" width="1040" height="1" class="cls-2"/>
+        <g>
+          <text x="-1" y="421" class="cls-3"><tspan class="cls-4">Отменить</tspan></text>
+          <text x="-245" y="421" class="cls-3"><tspan class="cls-5">Назад</tspan></text>
+          <rect x="-203" y="392" width="160" height="50" rx="2" ry="2" class="cls-6"/>
+          <text x="-177" y="421" class="cls-3"><tspan class="cls-7">Продолжить</tspan></text>
+        </g>
+        <g>
+          <text x="-473" y="317" class="cls-3"><tspan class="cls-8">Адрес доставки:</tspan></text>
+          <text x="-184" y="317" class="cls-9"><tspan class="cls-10">Улица, дом, квартира</tspan></text>
+          <rect x="-203" y="302" width="499" height="42" rx="2" ry="2" class="cls-11"/>
+        </g>
+        <g>
+          <text x="51" y="254" class="cls-9"><tspan class="cls-12">Требуется установка</tspan></text>
+          <rect x="24" y="252" width="16" height="16" rx="2" ry="2" class="cls-11"/>
+          <text x="-176" y="254" class="cls-9"><tspan class="cls-12">Требуется доставка</tspan></text>
+          <rect x="-203" y="252" width="16" height="16" rx="2" ry="2" class="cls-11"/>
+          <text x="-200" y="263" class="cls-13"><tspan class="cls-14">✓</tspan></text>
+        </g>
+        <g>
+          <g>
+            <rect x="-203" y="176" width="499" height="42" rx="2" ry="2" class="cls-11"/>
+            <rect x="-194" y="185" width="108" height="24" rx="2" ry="2" class="cls-2"/>
+            <path d="M-96.455,200.649 L-95.461,199.655 L-98.228,196.888 L-95.434,194.093 L-96.401,193.126 L-99.196,195.920 L-101.963,193.153 L-102.957,194.147 L-100.190,196.914 L-102.984,199.709 L-102.016,200.676 L-99.222,197.882 L-96.455,200.649 Z" class="cls-15"/>
+            <text x="-184" y="192" class="cls-3"><tspan class="cls-16">rekviziti.doc</tspan></text>
+            <text x="-473" y="191" class="cls-3"><tspan class="cls-8">Реквизиты:</tspan></text>
+            <text x="199" y="201" class="cls-17"><tspan class="cls-18">Прикрепить</tspan></text>
+            <text transform="translate(176 203)" class="cls-19"><tspan class="cls-20">📎</tspan></text>
+          </g>
+          <g>
+            <rect x="-203" y="113" width="230" height="42" rx="2" ry="2" class="cls-11"/>
+            <text x="-184" y="128" class="cls-9"><tspan class="cls-10">123456789012</tspan></text>
+            <rect x="67" y="113" width="229" height="42" rx="2" ry="2" class="cls-11"/>
+            <path d="M42.864,140.881 L45.329,140.881 L52.420,126.059 L49.955,126.059 L42.864,140.881 Z" class="cls-21"/>
+            <text x="86" y="128" class="cls-9"><tspan class="cls-10">123456789</tspan></text>
+            <text x="-473" y="128" class="cls-3"><tspan class="cls-8">ИНН/КПП:</tspan></text>
+          </g>
+          <g>
+            <text x="-473" y="65" class="cls-3"><tspan class="cls-8">Наименование:</tspan></text>
+            <text x="-184" y="65" class="cls-9"><tspan class="cls-10">ООО “Название компании”</tspan></text>
+            <rect x="-203" y="50" width="499" height="42" rx="2" ry="2" class="cls-11"/>
+          </g>
+          <g>
+            <text x="-473" y="2" class="cls-3"><tspan class="cls-8">Выберите вариант:</tspan></text>
+            <text x="19" y="2" class="cls-9"><tspan class="cls-12">Юридическое лицо</tspan></text>
+            <g>
+              <text x="-184" y="2" class="cls-9"><tspan class="cls-12">Физическое лицо</tspan></text>
+              <circle cx="-195" cy="8" r="8" class="cls-11"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text transform="translate(-476 -124)" class="cls-22"><tspan class="cls-23">Оформление заказа</tspan></text>
+    </g>
+    <circle cx="8" cy="8" r="8" class="cls-11"/>
+    <circle cx="8" cy="8" r="4" class="cls-6"/>
+  </g>
+</svg>
